@@ -10,7 +10,7 @@
 ## Installation
 
 ```sh
-npm install --save-dev webpack-koa-hot-middleware
+npm install webpack-koa-hot-middleware
 ```
 
 ## Usage
