@@ -17,7 +17,7 @@ npm install --save-dev webpack-koa-hot-middleware
 
 For more information, see [here](https://github.com/glenjamin/webpack-hot-middleware/blob/master/README.md).
 
-```sh
+```js
 const createHotMiddleware = require('webpack-koa-hot-middleware')
 
 // ...
