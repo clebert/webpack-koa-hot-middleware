@@ -17,10 +17,23 @@ npm install webpack-koa-hot-middleware
 
 For more information, see [here](https://github.com/glenjamin/webpack-hot-middleware/blob/master/README.md).
 
+### Koa 1.x
+
 ```js
 const createHotMiddleware = require('webpack-koa-hot-middleware')
 
 // ...
 
 app.use(createHotMiddleware(compiler))
+```
+
+### Koa 2.x
+
+```js
+const convert = require('koa-convert')
+const createHotMiddleware = require('webpack-koa-hot-middleware')
+
+// ...
+
+app.use(convert(createHotMiddleware(compiler)))
 ```
